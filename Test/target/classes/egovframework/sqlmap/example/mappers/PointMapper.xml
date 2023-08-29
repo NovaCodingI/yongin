@@ -8,7 +8,7 @@
 
 
 	<insert id="insertList" >
-	    insert into points (gid, lat, lon) values 
+	    insert into point (gid, lat, lon) values 
 	    (nextval('gid_sequence'), #{latitude}, #{longitude})
 	</insert>
 
