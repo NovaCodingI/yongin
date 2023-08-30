@@ -13,4 +13,9 @@ public class LocationVo {
 	
 	@JsonProperty("longitude")
 	private String longitude;
+	
+	@JsonProperty("android_id")
+	private String android_id;
+	
+	
 }

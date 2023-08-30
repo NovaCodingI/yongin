@@ -8,8 +8,8 @@
 
 
 	<insert id="insertList" >
-	    insert into point (gid, lat, lon) values 
-	    (nextval('gid_sequence'), #{latitude}, #{longitude})
+	    insert into point (gid, lat, lon, imei) values 
+	    (nextval('gid_sequence'), #{latitude}, #{longitude}, #{android_id})
 	</insert>
 
 	
