@@ -7,10 +7,10 @@
 <mapper namespace="egovframework.ddan.mapper.PointMapper">
 
 
-	<insert id="insertList" >
-	    insert into point (gid, lat, lon, imei) values 
-	    (nextval('gid_sequence'), #{latitude}, #{longitude}, #{android_id})
-	</insert>
+   <insert id="insertList" >
+       insert into point (gid, lat, lon, date, time, andoid_id) values 
+       (nextval('gid_sequence'), #{latitude}, #{longitude}, CURRENT_DATE, CURRENT_TIME, #{android_id})
+   </insert>
 
 	
 

@@ -8,6 +8,6 @@ import egovframework.ddan.vo.LocationVo;
 public interface PointMapper {
 	
 	
-	public int insertList(LocationVo vo);
+	public int insertList(LocationVo loca);
 	
 }

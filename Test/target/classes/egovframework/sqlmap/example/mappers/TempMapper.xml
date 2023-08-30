@@ -5,8 +5,8 @@
 
 
 	<insert id="insert">
-	    insert into temp (latitude, longitude, date, time)
-	    	values (#{latitude}, #{longitude}, CURRENT_DATE, CURRENT_TIME)
+	    insert into temp (latitude, longitude, date, time, imei)
+	    	values (#{latitude}, #{longitude}, CURRENT_DATE, CURRENT_TIME, #{android_id})
 	</insert>
 	
 	<select id="getLocaList" resultType="egovframework.ddan.vo.LocationVo">
