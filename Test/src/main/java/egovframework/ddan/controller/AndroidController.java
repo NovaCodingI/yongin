@@ -29,7 +29,7 @@ public class AndroidController {
 		  
 	    	System.out.println("Received Location Data: " + locationData.getLatitude());
 	    	System.out.println("Received Location Data: " + locationData.getLongitude());
-	    	System.out.println("Received Location Data: " + locationData.getAndroid_id());
+	    	System.out.println("Received Location Data: " + locationData.getAndoid_id());
 	    	
 	    	int res = serive.insert(locationData);
 	    	

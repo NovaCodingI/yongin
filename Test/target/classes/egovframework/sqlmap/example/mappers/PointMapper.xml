@@ -9,7 +9,7 @@
 
    <insert id="insertList" >
        insert into point (gid, lat, lon, date, time, andoid_id) values 
-       (nextval('gid_sequence'), #{latitude}, #{longitude}, CURRENT_DATE, CURRENT_TIME, #{android_id})
+       (nextval('gid_sequence'), #{latitude}, #{longitude}, CURRENT_DATE, CURRENT_TIME, #{andoid_id})
    </insert>
 
 	
